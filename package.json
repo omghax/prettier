@@ -11,6 +11,7 @@
   "license": "MIT",
   "main": "./index.js",
   "dependencies": {
+    "@glimmer/syntax": "0.27.0",
     "babel-code-frame": "7.0.0-alpha.12",
     "babylon": "7.0.0-beta.22",
     "chalk": "2.0.1",

@@ -14,7 +14,8 @@ const parsers = [
   "typescript",
   "graphql",
   "postcss",
-  "parse5"
+  "parse5",
+  "glimmer"
 ];
 
 process.env.PATH += path.delimiter + path.join(rootDir, "node_modules", ".bin");
