@@ -426,6 +426,14 @@ exports[`else-if.hbs 1`] = `
 {{/if}}
 `;
 
+exports[`escaped-chars.hbs 1`] = `
+<p>Some escaped characters: &lt; &gt; &amp;</p>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<p>
+  Some escaped characters: &lt; &gt; &amp;
+</p>
+`;
+
 exports[`literals.hbs 1`] = `
 {{mustache true}}
 {{mustache 5}}
